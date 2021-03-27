@@ -27,9 +27,9 @@ export class HomeComponent implements OnInit {
   exibetabela: boolean = false;
 
   listaProfessores: professores [] = [
-    {nome: 'Lucas',email:'lucas@gmail.com',cadeira:'Banco de dados'},
-    {nome: 'Pedro',email:'pedro@gmail.com',cadeira:'Software'},
-    {nome: 'Henrique',email:'henrique@gmail.com',cadeira:'Angular'}
+    {nome: 'Francisco',email:'francisco@gmail.com',cadeira:'Lógica de Programação'},
+    {nome: 'Monica',email:'monica@gmail.com',cadeira:'C#'},
+    {nome: 'Joaquim',email:'joaquim@gmail.com',cadeira:'JavaScript e Angular'}
   ];
 
   valor2: number;
@@ -37,9 +37,9 @@ export class HomeComponent implements OnInit {
 
   listaCursos: cursos[] = [
     {curso: 'Análise e Desenvolvimento de Sistemas',duracao:'5 períodos',tipo:'Tecnólogo'},
-    {curso: 'Direito',duracao:'10 períodos',tipo:'Bacharelado'}, 
-    {curso: 'Manutenção e Suporte de Informática',duracao:'3 períodos',tipo:'Tecnico'}, 
-    {curso: 'Fisioterapia',duracao:'10 períodos',tipo:'Bacharel'} 
+    {curso: 'Engenharia de Materiais',duracao:'10 períodos',tipo:'Bacharelado'}, 
+    {curso: 'Engenharia de computacao',duracao:'10 períodos',tipo:'Bacharelado'}, 
+    {curso: 'Sistema de Informacao',duracao:'10 períodos',tipo:'Bacharelado'} 
   ];
 
   displayedColumns: string[] = ['Nome', 'Idade', 'E-mail', 'Curso'];
